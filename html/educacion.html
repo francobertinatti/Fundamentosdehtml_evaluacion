@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Educacion</title>
+</head>
+<body>
+	<header>
+		<svg>
+			<image xlink:href="../images/logoajustado.svg" width="150px" height="150px" x="0px" y="0px"></image>
+		</svg>
+		<h1>Curriculum Vitae</h1>
+		<h2>Nombre</h2>
+		<h3>Franco</h3>
+		<h2>Apellido</h2>
+		<h3>Bertinatti</h3>
+		<h2>Fecha Nacimiento</h2>
+		<h3>09 Enero de 1992</h3>
+		<h2>Lugar de nacimiento</h2>
+		<h3>Tucuman, San Miguel de tucuman</h3>
+		<a href="../index.html">INICIO</a> | <a href="educacion.html">EDUCACION</a> | <a href="experiencia.html">EXPERIENCIA</a>
+		<br>
+		<h2>Educación</h2>
+		<table  cellspacing="1" cellpadding="15" border="1" width="400px">
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Culminó?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2018</td>
+					<td>UNT.BA</td>
+					<td>BUENOS AIRES</td>
+					<td>SI</td>
+				</tr>
+				<tr>
+					<td>2017</td>
+					<td>UNT</td>
+					<td>TUCUMAN</td>
+					<td>SI</td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<br>
+		
+		<form autocomplete="on" name="Agregar Estudios">
+		<fieldset>
+			<legend><h3>Agregar Estudios</h3></legend>
+				<label for="year">Año: </label>
+				<select name="year">
+					<option value="1">2010</option>
+					<option value="1">2011</option>
+					<option value="1">2012</option>
+					<option value="1">2013</option>
+					<option value="1">2014</option>
+					<option value="1">2015</option>
+					<option value="1">2016</option>
+					<option value="1">2017</option>
+					<option value="1">2018</option>
+				</select>
+			<p>
+				<label for="institucion">Institucion: </label>
+				<input id="institucion" type="text" placeholder="Ingrese nombre de institucion" size="200px" required>
+			</p>
+			<p>
+				<label for="lugar">Lugar: </label>
+				<br>
+				<textarea name="lugar" id="" cols="190" rows="3"></textarea>
+			</p>
+			<p>
+				<input type="submit">
+			</p>
+		</fieldset>
+	</form>
+	</header>
+	<footer>
+	</footer>
+</body>
+</html>
